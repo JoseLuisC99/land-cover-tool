@@ -1,0 +1,9 @@
+# Project folders
+/bibliography
+
+# Model training folders
+__pycache__
+logs
+checkpoints
+.ipynb_checkpoints
+/models/*/data/*/images
