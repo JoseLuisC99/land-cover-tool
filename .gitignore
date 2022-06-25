@@ -7,3 +7,6 @@ logs
 checkpoints
 .ipynb_checkpoints
 /models/*/data/*/images
+
+# Virtual environments
+*/venv
