@@ -13,7 +13,7 @@ services:
       - --rest_api_timeout_in_ms=30000
     volumes:
       - type: bind
-        source: /home/jlcg/Projects/AI hackathon/models/serving_models/land-cover
+        source: ./models/serving_models/land-cover
         target: /models/land-cover
     environment:
       - MODEL_NAME=land-cover
