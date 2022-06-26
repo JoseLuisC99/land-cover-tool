@@ -1,10 +1,12 @@
 # Land Cover Tool
 
 ## Table of contents
-[General info](#general-info)
-[Technologies](#technologies)
-[Setup](#setup)
-[Authors](#authors)
+- [Land Cover Tool](#land-cover-tool)
+  - [Table of contents](#table-of-contents)
+  - [General info](#general-info)
+  - [Technologies](#technologies)
+  - [Setup](#setup)
+  - [Authors](#authors)
 
 ## General info
 This project is the result of our participation in the IA 2022 hackathon, whose objective was to create applications using artificial intelligence algorithms to solve real challenges.
