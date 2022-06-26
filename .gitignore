@@ -15,3 +15,4 @@ checkpoints
 node_modules
 
 **/env.js
+**build/

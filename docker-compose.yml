@@ -33,7 +33,7 @@ services:
       - backend
       - frontend
   server:
-    container_name: server_nginx
+    container_name: server
     restart: always
     build: ./nginx
     ports:
@@ -42,6 +42,14 @@ services:
       - api
     networks:
       - frontend
+  webapp:
+    container_name: webapp
+    restart: always
+    build: ./webapp
+    ports:
+      - "80:80"
+    depends_on:
+      - server
 networks:
   frontend:
     driver: bridge

@@ -44,15 +44,12 @@ export default function Map() {
                 const blob = new Blob([img], { type: 'image/png' });
                 const formData = new FormData()
                 formData.append('images', blob)
-                axios.post('http://127.0.0.1:8080/api/v1/predict', formData).then(res => {
+                axios.post('http://localhost:8080/api/v1/predict', formData).then(res => {
                     const images = res.data
                     setLoading(false)
                     const land_names = ['Urban land', 'Agriculture land', 'Rangeland', 'Forest land', 'Water', 'Barren land']
                     for(let i=0; i<land_names.length; i++) {
                         const img = images[land_names[i]]
-                        // let image = new Image()
-                        // image.src = `data:image/png;base64,${img}`
-                        // console.log(image)
                         urlImage.push(`data:image/png;base64,${img}`)
                     }
                 })
