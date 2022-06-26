@@ -17,7 +17,7 @@ def greet():
 @app.route('/api/v1/predict', methods=['POST'])
 def predict_v1():
     land_names = ['Urban land', 'Agriculture land', 'Rangeland', 'Forest land', 'Water', 'Barren land', 'Unknown']
-    image = Image.open(request.files['images'])
+    image = Image.open(request.files['images']).convert('RGB')
     input = np.asarray(image)
     input = np.expand_dims(input, axis=0).astype(np.float32)
     data = json.dumps({
