@@ -13,3 +13,5 @@ checkpoints
 
 # Node.js
 node_modules
+
+**/env.js

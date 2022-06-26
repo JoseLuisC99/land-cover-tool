@@ -1,0 +1,52 @@
+#app-bar {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+#bkgd-video {
+    position: fixed;
+    max-width: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+#input-card {
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    max-width: 80vw;
+}
+#coords-container {
+    margin-top: 20vh;
+}
+#form-container {
+    color: #fff !important;
+    position: fixed;
+    width: 100vw !important;
+    height: 100vh !important;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#background-page {
+    position: fixed;
+    width: 100vw !important;
+    height: 100vh !important;
+    left: 0;
+    top: 0;
+    background-color: #0c1220;
+    z-index: -2;
+}
+.left-round .MuiOutlinedInput-root{
+    border-radius: 25px 0px 0px 25px;
+}
+.without-round .MuiOutlinedInput-root {
+    border-radius: 0px;
+}
+.right-round-button {
+    border-radius: 0px 25px 25px 0px !important;
+}
+.MuiPaper-root { color: unset !important; background-color: unset !important; }
+#send-coords {
+    width: 120px;
+    background-color: #1976d2;
+    color: #fff;
+}

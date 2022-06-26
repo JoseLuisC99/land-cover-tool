@@ -1,0 +1,27 @@
+#map {
+    position: fixed !important;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.fillAlert {
+    background-color: #f57c00 !important;
+}
+#image-filter {
+    width: 320px;
+    height: 320px;
+    position: fixed;
+    z-index: 10;
+    bottom: 100px;
+    right: 20px;
+}
+#skeleton-filter {
+    width: 320px;
+    height: 320px;
+    position: fixed;
+    z-index: 10;
+    bottom: 100px;
+    right: 20px;
+}
